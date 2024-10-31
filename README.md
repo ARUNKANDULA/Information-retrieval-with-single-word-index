@@ -1,7 +1,5 @@
 # Information Retrieval CSCE5200
 
-## Project Description
-
 This is a project for the Information Retrieval class, aimed at building a search engine to retrieve documents based on a user query.
 
 ## Installation
