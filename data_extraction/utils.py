@@ -46,8 +46,8 @@ class DataExtraction():
         words = [word for word in words if word not in stopwords_list]
 
         # eliminating duplicate words in the list
-        words = list(set(words))
+        unique_words = list(set(words))
         
-        return words
+        return words, unique_words
     
 data_extraction = DataExtraction()
