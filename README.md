@@ -39,3 +39,15 @@ wordID2: {docId10: freq in docID10, docId12: freq in docID12,...},
 
 *To test this forward and inverted index construction on test data set, change the data_path to `../test_data`*
 ![alt text](images/dataset_path.png)
+
+## Query Retrieval and Performance Analysis
+Queries used in this project are in `input_query/topics.txt`. Each query is structured as the below screen shot.
+![image](https://github.com/user-attachments/assets/9fb36301-71ae-4218-8b2b-813640af987d)
+
+Each topic is contained within the `<top>` and `</top>` tags. The format of each query is as follows:
+```
+<num> Unique Query Number
+<title> Main Query (Max. three words)
+<desc> One sentence description of the query
+<narr> Concise description of what makes a document relevant
+```
